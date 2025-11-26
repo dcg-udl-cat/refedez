@@ -34,7 +34,7 @@ jobs:
           github_access_token: ${{ secrets.GITHUB_TOKEN }}
       - name: Build Webpage
         id: build
-        run: nix build
+        run: nix build .#documentation
       - name: Upload artifact
         id: deployment
         uses: actions/upload-pages-artifact@v3
