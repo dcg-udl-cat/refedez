@@ -1,0 +1,10 @@
+[project]
+name = "refedez-cifar10"
+version = "0.1.0"
+description = "Project that implements a custom model for the cifar-10 dataset"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "sympy>=1.14.0",
+    "refedez==1.0.0"
+]

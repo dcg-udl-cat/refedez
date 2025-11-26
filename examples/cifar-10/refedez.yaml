@@ -1,0 +1,19 @@
+refedez:
+  folder: ./.refedez
+  capabilities: ./project.yml
+
+machines:
+  server.localhost:
+    type: local
+  site1:
+    type: local
+  site2:
+    type: local
+
+project:
+  server.localhost:
+    folder: .
+  site1:
+    folder: .
+  site2:
+    folder: .
